@@ -1,0 +1,26 @@
+{
+  "name": "forkify-react-typescript",
+  "version": "1.0.0",
+  "description": "Modern recipe search and bookmarking app built with React and TypeScript.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --configLoader native",
+    "start": "vite --configLoader native",
+    "build": "tsc -p tsconfig.app.json && vite build --configLoader native",
+    "preview": "vite preview"
+  },
+  "author": "Alketa Novende",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "sass": "^1.83.0",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.7"
+  }
+}
